@@ -8,6 +8,9 @@ import contact from './Images/contact-me.gif'
 import design from './Images/design.png';
 import code from './Images/code.png';
 import consulting from './Images/design1.png';
+import project1 from './Images/project-1.png';
+import project2 from './Images/project-2.png';
+import project3 from './Images/project-3.png';
 import html from './Icons/html.png';
 import css from './Icons/css.png';
 import js from './Icons/js.png';
@@ -52,7 +55,7 @@ function App() {
             <ul className=' flex items-center'>
               <li><BsFillMoonStarsFill className=' cursor-pointer text-xl mr-10 dark:text-white' onClick={()=>setDarkMode(!darkMode)}/></li>
               <li>
-                <a href='https://drive.google.com/file/d/10q-OC__JT1IlaDzxnkKs-drcNJy8t_5g/view?usp=sharing' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-500 hover:text-black'>Resume</a>
+                <a href='https://drive.google.com/file/d/1SQQbEeEFOcLfp32SqbEVZJclYAZLt-UY/view?usp=sharing' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition duration-500 hover:text-black'>Resume</a>
               </li>
             </ul>
           </nav>
@@ -85,7 +88,7 @@ function App() {
         {/* About section begins */}
         <section className='py-5 md:py-10 lg:py-10'>
           <div className=' container my-12'>
-            <h3 className=' text-3xl py-1 font-bold md:text-4xl lg:text-4xl dark:text-gray-300'>About me</h3>
+            <h3 className=' text-xl py-1 font-bold md:text-2xl lg:text-4xl dark:text-gray-300'>About me</h3>
             <p className=' text-md py-2 leading-8 dark:text-white'>
             As a dedicated developer with over 2 years of hands-on experience in technologies like HTML5, CSS3, JavaScript, Typescript, React js, Next js, Tailwind css and more. I bring a passion for creating user-friendly, responsive web applications. My journey in web development began with a strong foundation in core web technologies, which I've continued to build upon with a focus on modern frameworks and libraries.
 
@@ -159,46 +162,51 @@ My interests include Front end development, UI desiging, Data analytics and prog
         <section>
           <div className=' container my-12'>
             <h3 className=' text-3xl py-1 font-bold md:text-4xl lg:text-4xl dark:text-gray-300'>Projects</h3>
-            <p className=' text-lg py-2 leading-8 dark:text-white'>
+            <p className=' text-md md:text-2xl lg:text-4xl py-2 leading-8 dark:text-white'>
             Take a look at some of my <span className=' text-teal-500'>side projects</span>
             </p>
-            <div className='lg:flex justify-evenly gap-2'>
-            <div className=' text-center p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2  my-10 shadow-2xl hover:bg-gray-300 dark:outline dark:outline-teal-800 dark:text-white dark:hover:bg-gray-300 dark:hover:outline-none dark:hover:text-black dark:hover:shadow-gray-300'>
-               <div className="rounded-lg mx-auto container w-52 h-36 background bg-[url('./Images/project-1.png')] bg-cover bg-center bg-no-repeat" />
-              <h3 className='text-2xl py-2 font-semibold'>Blogger!</h3>
-              <div className='mt-10 '>
-              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md hover:text-black '><a href='https://blogger-lime.vercel.app/'>Live demo</a></button>
-              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md hover:text-black'><a href='https://github.com/jagz5246/blogger.git'>Source code</a></button>
+            <div className='lg:flex gap-2'>
+            {/* Project 1 */}
+            <div className=' text-center p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2 my-10 shadow-2xl  hover:bg-gray-300 dark:outline dark:outline-teal-800 dark:text-white dark:hover:bg-gray-300 dark:hover:text-black dark:hover:shadow-gray-300'>
+            <div className="rounded-lg container mx-auto w-52 h-36 background bg-[url('./Images/project-1.png')] bg-cover bg-center bg-no-repeat" />
+              <h3 className=' text-2xl py-2 text-teal-500 font-semibold '>TO-DO APP</h3>
+              <h4><span className=' font-bold'>Tech involved:</span> React.js, React hooks, Local Storage, Vercel</h4>
+              <div className=' flex justify-center gap-2 mt-10'>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm hover:text-black '><a href='https://todo-app-git-main-jagz5246.vercel.app/'>Live demo</a></button>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm hover:text-black'><a href='https://github.com/jagz5246/todo-app'>Source code</a></button>
               </div>
             </div>
-            <div className=' text-center p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2 my-10 shadow-2xl  hover:bg-gray-300 dark:outline dark:outline-teal-800 dark:text-white dark:hover:bg-gray-300 dark:hover:outline-none dark:hover:text-black dark:hover:shadow-gray-300'>
-            <div className="rounded-lg container mx-auto w-52 h-36 background bg-[url('./Images/project-2.png')] bg-cover bg-center bg-no-repeat" />
-              <h3 className='text-2xl py-2 font-semibold '>To Do App</h3>
-
-              <div className=' mt-10'>
-              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md  hover:text-black '><a href='https://todo-app-git-main-jagz5246.vercel.app/'>Live demo</a></button>
-              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md  hover:text-black'><a href='https://github.com/jagz5246/todo-app'>Source code</a></button>
+            {/* Project 2 */}  
+            <div className=' text-center p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2  my-10 shadow-2xl hover:bg-gray-300 dark:outline dark:outline-teal-800 dark:text-white dark:hover:bg-gray-300 dark:hover:text-black dark:hover:shadow-gray-300'>
+              <div className="rounded-lg mx-auto container w-52 h-36 background bg-[url('./Images/project-2.png')] bg-cover bg-center bg-no-repeat" />
+              <h3 className='text-2xl text-teal-500 py-2 font-semibold'>SHOPPING APP</h3>
+              <h4><span className='font-bold'>Tech involved:</span> Next.js, Typescript, Tailwindcss, Shadcn, Sanity.io, Stripe, Vercel</h4>
+              <div className=' flex justify-center gap-2 mt-10'>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm hover:text-black '><a href='https://eternattire-ecomm.vercel.app/'>Live demo</a></button>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm hover:text-black'><a href='https://github.com/jagz5246/eternattire-ecomm'>Source code</a></button>
               </div>
             </div>
-            <div className=' text-center p-5 rounded-lg my-10 shadow-2xl cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2 hover:bg-gray-300 dark:outline transition-duration-250ms dark:outline-teal-800 dark:text-white dark:hover:outline-none dark:hover:bg-gray-300 dark:hover:text-black dark:hover:shadow-gray-300'>
+            {/* Project 3 */}
+            <div className=' text-center p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2  my-10 shadow-2xl hover:bg-gray-300 dark:outline dark:outline-teal-800 dark:text-white dark:hover:bg-gray-300 dark:hover:text-black dark:hover:shadow-gray-300'>
             <div className="rounded-lg container mx-auto w-52 h-36 background bg-[url('./Images/project-3.png')] bg-cover bg-center bg-no-repeat" />
-              <h3 className='text-2xl py-2 font-semibold'>Netflix-clone</h3>
-
-            <div className='mt-10 '>
-              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 mb-2 mx-5 py-2 rounded-md  hover:text-black '><a href='https://jagz5246.github.io/netflix-clone/'>Live demo</a></button>
-              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md  hover:text-black'><a href='https://github.com/jagz5246/netflix-clone'>Source code</a></button>
+              <h3 className='text-2xl py-2 text-teal-500 font-semibold'>NETFLIX-CLONE</h3>
+              <h4><span className='font-bold'>Tech involved:</span> React.js, React hooks, Redux toolkit, Firebase, Firestore, Stripe</h4>
+            <div className=' flex justify-center gap-2 mt-10'>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm hover:text-black '><a href='https://jagz5246.github.io/netflix-clone/'>Live demo</a></button>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm hover:text-black'><a href='https://github.com/jagz5246/netflix-clone'>Source code</a></button>
               </div>
             </div>
           </div>           
           </div>
         </section>
+
         <section className=' my-10'>
         <h3 className=' text-3xl py-1 font-bold md:text-4xl lg:text-4xl dark:text-gray-300'>Hit me up!</h3>
          <div className=' p-10 md:flex lg:flex gap-10'>
           <img src={contact} alt="design.png" width={300} height={300} className='rounded-lg '/>
           <div className=' md:pt-20 lg:pt-30'>
           <p className='text-lg dark:text-gray-100 md:text-xl'>Reach out to me via</p>
-            <p className=' text-md py-4 text-teal-600 md:text-lg'>Email: <span className='text-md text-gray-900 dark:text-gray-300'>jagz5246@gmail.com</span></p>
+            <p className=' text-md py-4 text-teal-600 md:text-lg'>Email: <span className='text-md text-gray-900  dark:text-gray-300'>jagz5246@gmail.com</span></p>
             <p className=' text-md py-4 text-teal-600 md:text-lg'>Phone: <span className='text-md text-gray-900 dark:text-gray-300'>+91-8098007508</span></p>  
           </div>
           </div>
