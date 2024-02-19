@@ -8,9 +8,6 @@ import contact from './Images/contact-me.gif'
 import design from './Images/design.png';
 import code from './Images/code.png';
 import consulting from './Images/design1.png';
-import project1 from './Images/project-1.png';
-import project2 from './Images/project-2.png';
-import project3 from './Images/project-3.png';
 import html from './Icons/html.png';
 import css from './Icons/css.png';
 import js from './Icons/js.png';
