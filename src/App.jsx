@@ -3,7 +3,7 @@ import {AiFillLinkedin, AiFillGithub, AiFillInstagram} from 'react-icons/ai';
 import './App.css';
 import { useEffect, useState } from 'react';
 import Typewriter from 'typewriter-effect';
-import proPic from './Images/profile-pic.jpg';
+import proPic from './Images/jagan.jpg';
 import contact from './Images/contact-me.gif'
 import design from './Images/design.png';
 import code from './Images/code.png';
@@ -159,7 +159,7 @@ My interests include Front end development, UI desiging, Data analytics and prog
         <section>
           <div className=' container my-12'>
             <h3 className=' text-3xl py-4 font-bold md:text-4xl lg:text-4xl dark:text-gray-300'>Projects</h3>
-            <p className=' text-md md:text-2xl py-2 leading-8 dark:text-white'>
+            <p className=' text-md md:text-xl py-2 leading-8 dark:text-white'>
             Take a look at some of my <span className=' text-teal-500'>side projects</span>
             </p>
             <div className='lg:flex gap-2'>
