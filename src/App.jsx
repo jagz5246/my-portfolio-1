@@ -161,25 +161,25 @@ My interests include Front end development, UI desiging, Data analytics and prog
 
         <section>
           <div className=' container my-12'>
-            <h3 className=' text-3xl py-1 font-bold md:text-4xl lg:text-4xl dark:text-gray-300'>Projects</h3>
-            <p className=' text-md md:text-2xl lg:text-4xl py-2 leading-8 dark:text-white'>
+            <h3 className=' text-3xl py-4 font-bold md:text-4xl lg:text-4xl dark:text-gray-300'>Projects</h3>
+            <p className=' text-md md:text-2xl py-2 leading-8 dark:text-white'>
             Take a look at some of my <span className=' text-teal-500'>side projects</span>
             </p>
             <div className='lg:flex gap-2'>
             {/* Project 1 */}
             <div className=' text-center p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2 my-10 shadow-2xl  hover:bg-gray-300 dark:outline dark:outline-teal-800 dark:text-white dark:hover:bg-gray-300 dark:hover:text-black dark:hover:shadow-gray-300'>
             <div className="rounded-lg container mx-auto w-52 h-36 background bg-[url('./Images/project-1.png')] bg-cover bg-center bg-no-repeat" />
-              <h3 className=' text-2xl py-2 text-teal-500 font-semibold '>TO-DO APP</h3>
-              <h4><span className=' font-bold'>Tech involved:</span> React.js, React hooks, Local Storage, Vercel</h4>
+              <h3 className=' text-2xl py-4 text-teal-500 font-semibold '>VIDEO-PLAYER</h3>
+              <h4><span className=' font-bold'>Tech involved:</span> React.js, React hooks, react-player, tailwind.css, MaterialUI, screenful, vercel</h4>
               <div className=' flex justify-center gap-2 mt-10'>
-              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm hover:text-black '><a href='https://todo-app-git-main-jagz5246.vercel.app/'>Live demo</a></button>
-              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm hover:text-black'><a href='https://github.com/jagz5246/todo-app'>Source code</a></button>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm hover:text-black '><a href='https://video-player-six-sigma.vercel.app/'>Live demo</a></button>
+              <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm hover:text-black'><a href='https://github.com/jagz5246/video-player'>Source code</a></button>
               </div>
             </div>
             {/* Project 2 */}  
             <div className=' text-center p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2  my-10 shadow-2xl hover:bg-gray-300 dark:outline dark:outline-teal-800 dark:text-white dark:hover:bg-gray-300 dark:hover:text-black dark:hover:shadow-gray-300'>
               <div className="rounded-lg mx-auto container w-52 h-36 background bg-[url('./Images/project-2.png')] bg-cover bg-center bg-no-repeat" />
-              <h3 className='text-2xl text-teal-500 py-2 font-semibold'>SHOPPING APP</h3>
+              <h3 className='text-2xl text-teal-500 py-4 font-semibold'>SHOPPING APP</h3>
               <h4><span className='font-bold'>Tech involved:</span> Next.js, Typescript, Tailwindcss, Shadcn, Sanity.io, Stripe, Vercel</h4>
               <div className=' flex justify-center gap-2 mt-10'>
               <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm hover:text-black '><a href='https://eternattire-ecomm.vercel.app/'>Live demo</a></button>
