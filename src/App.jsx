@@ -164,30 +164,55 @@ My interests include Front end development, UI desiging, Data analytics and prog
             </p>
             <div className='lg:flex gap-2'>
             {/* Project 1 */}
-            <div className=' text-center p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2 my-10 shadow-2xl  hover:bg-gray-300 dark:outline dark:outline-teal-800 dark:text-white dark:hover:bg-gray-300 dark:hover:text-black dark:hover:shadow-gray-300'>
+            <div className=' text-center lg:w-1/2 p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2 my-10 shadow-2xl  hover:bg-gray-300 dark:outline dark:outline-teal-800 dark:text-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
             <div className="rounded-lg container mx-auto w-52 h-36 background bg-[url('./Images/project-1.png')] bg-cover bg-center bg-no-repeat" />
               <h3 className=' text-2xl py-4 text-teal-500 font-semibold '>VIDEO-PLAYER</h3>
-              <h4><span className=' font-bold'>Tech involved:</span> React.js, React hooks, react-player, tailwind.css, MaterialUI, screenful, vercel</h4>
+              <div className='flex flex-wrap justify-center gap-2 max-w-max'>
+                  <p className='p-2 bg-gray-500 rounded text-xs'>React.js</p>
+                  <p className='p-2 bg-gray-500 rounded text-xs'>React hooks</p>
+                  <p className='p-2 bg-gray-500 rounded text-xs'>contextAPI</p>
+                  <p className='p-2 bg-gray-500 rounded text-xs'>react-player</p>
+                  <p className='p-2 bg-gray-500 rounded text-xs'>tailwindcss</p>
+                  <p className='p-2 bg-gray-500 rounded text-xs'>MaterialUI</p>
+                  <p className='p-2 bg-gray-500 rounded text-xs'>screenful</p>
+                  <p className='p-2 bg-gray-500 rounded text-xs'>Vercel</p>
+                </div>
               <div className=' flex justify-center gap-2 mt-10'>
               <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm hover:text-black '><a href='https://video-player-six-sigma.vercel.app/'>Live demo</a></button>
               <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm hover:text-black'><a href='https://github.com/jagz5246/video-player'>Source code</a></button>
               </div>
             </div>
             {/* Project 2 */}  
-            <div className=' text-center p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2  my-10 shadow-2xl hover:bg-gray-300 dark:outline dark:outline-teal-800 dark:text-white dark:hover:bg-gray-300 dark:hover:text-black dark:hover:shadow-gray-300'>
+            <div className=' text-center lg:w-1/2 p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2  my-10 shadow-2xl hover:bg-gray-300 dark:outline dark:outline-teal-800 dark:text-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
               <div className="rounded-lg mx-auto container w-52 h-36 background bg-[url('./Images/project-2.png')] bg-cover bg-center bg-no-repeat" />
               <h3 className='text-2xl text-teal-500 py-4 font-semibold'>SHOPPING APP</h3>
-              <h4><span className='font-bold'>Tech involved:</span> Next.js, Typescript, Tailwindcss, Shadcn, Sanity.io, Stripe, Vercel</h4>
+                <div className='flex flex-wrap justify-center gap-2 max-w-max'>
+                  <p className='p-2 bg-gray-500 rounded text-xs'>Next.js</p>
+                  <p className='p-2 bg-gray-500 rounded text-xs'>Typescript</p>
+                  <p className='p-2 bg-gray-500 rounded text-xs'>Tailwindcss</p>
+                  <p className='p-2 bg-gray-500 rounded text-xs'>Shadcn</p>
+                  <p className='p-2 bg-gray-500 rounded text-xs'>Sanity.io</p>
+                  <p className='p-2 bg-gray-500 rounded text-xs'>Stripe</p>
+                  <p className='p-2 bg-gray-500 rounded text-xs'>Vercel</p>
+                </div>
               <div className=' flex justify-center gap-2 mt-10'>
               <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm hover:text-black '><a href='https://eternattire-ecomm.vercel.app/'>Live demo</a></button>
               <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm hover:text-black'><a href='https://github.com/jagz5246/eternattire-ecomm'>Source code</a></button>
               </div>
             </div>
             {/* Project 3 */}
-            <div className=' text-center p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2  my-10 shadow-2xl hover:bg-gray-300 dark:outline dark:outline-teal-800 dark:text-white dark:hover:bg-gray-300 dark:hover:text-black dark:hover:shadow-gray-300'>
+            <div className=' text-center lg:w-1/2 p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2  my-10 shadow-2xl hover:bg-gray-300 dark:outline dark:outline-teal-800 dark:text-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
             <div className="rounded-lg container mx-auto w-52 h-36 background bg-[url('./Images/project-3.png')] bg-cover bg-center bg-no-repeat" />
-              <h3 className='text-2xl py-2 text-teal-500 font-semibold'>NETFLIX-CLONE</h3>
-              <h4><span className='font-bold'>Tech involved:</span> React.js, React hooks, Redux toolkit, Firebase, Firestore, Stripe</h4>
+              <h3 className='text-2xl py-4 text-teal-500 font-semibold'>NETFLIX-CLONE</h3>
+              <div className='flex flex-wrap justify-center gap-2 max-w-max'>
+                  <p className='p-2 bg-gray-500 rounded text-xs'>React.js</p>
+                  <p className='p-2 bg-gray-500 rounded text-xs'>Redux</p>
+                  <p className='p-2 bg-gray-500 rounded text-xs'>React hooks</p>
+                  <p className='p-2 bg-gray-500 rounded text-xs'>Firebase</p>
+                  <p className='p-2 bg-gray-500 rounded text-xs'>Firestore</p>
+                  <p className='p-2 bg-gray-500 rounded text-xs'>Stripe</p>
+                  <p className='p-2 bg-gray-500 rounded text-xs'>Github pages</p>
+                </div>
             <div className=' flex justify-center gap-2 mt-10'>
               <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm hover:text-black '><a href='https://jagz5246.github.io/netflix-clone/'>Live demo</a></button>
               <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm hover:text-black'><a href='https://github.com/jagz5246/netflix-clone'>Source code</a></button>
