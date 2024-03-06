@@ -50,8 +50,8 @@ function App() {
   return (
     <div className={darkMode?"dark":"" }>
       <span style={{transform: `translateX(${completion-100}%)`}} className='fixed bg-gradient-to-r from-cyan-500 to-teal-500 h-2 w-full top-0'></span>
-        <main className=' bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900 font-mono'>
-        <section className=' max-h-screen'>
+        <main className=' bg-white px-10 md:px-20 lg:px-40 dark:bg-black font-mono'>
+        <section className='max-h-screen'>
         <div className=' container lg:mb-12'>
           <nav className=' py-10 mb-10 flex justify-between'>
             <h1 className=' font-burtons text-4xl dark:text-white'>JM</h1>
@@ -62,7 +62,7 @@ function App() {
               </li>
             </ul>
           </nav>
-          <div className=' text-center'>
+          <div className=' mt-24 text-center'>
             <h2 className=' text-3xl py-4 font-mono text-teal-600 font-medium md:text-5xl'>Jagan Mohan</h2>
             <div className=' text-md text-teal-600 flex justify-center  md:text-xl dark:text-teal-500'>
               <p className='text-gray-500 dark:text-white'>I am a&nbsp;</p>
@@ -89,19 +89,19 @@ function App() {
           </div> 
         </section>
         {/* About section begins */}
-        <section className='py-5 md:py-10 lg:py-10'>
+        <section className='my-24 md:py-10 lg:py-10'>
           <div className=' container mx-auto my-12'>
             <h3 className='text-xl py-1 font-bold md:text-2xl lg:text-4xl text-teal-600'>About Me</h3>
             <p className='text-md py-2 leading-8 dark:text-white'>
             As a dedicated developer with over 2 years of hands-on experience in technologies like HTML5, CSS3, JavaScript, Typescript, React js, Next js, Tailwind css and more. I bring a passion for creating user-friendly, responsive web applications.</p>
             <p className=' text-md py-2 leading-8 dark:text-gray-300'>
-            My<span className=' text-teal-6'> interests</span> include Front end development, UI desiging, Data analytics and programming.
+            My<span className=' text-teal-600'> interests</span> include Front end development, UI desiging, Data analytics and programming.
             </p>
           </div>
           <h3 className=' text-teal-600 text-xl py-1 font-bold md:text-2xl lg:text-4xl mt-20'>Skills</h3>
           <div className='flex flex-col lg:flex-row items-center bg-grey-300 justify-evenly my-10 gap-4'>
 
-            <div className=' outline outline-teal-800 text-center mb-5 rounded-full '>
+            <div className=' outline outline-gray-800 text-center mb-5 rounded-full '>
               <div className='flex flex-col px-4 py-12 gap-2 w-full h-full justify-center '>
               <img src={design} alt="design.png" width={50} height={50} className='mx-auto'/>
               <h3 className='text-center font-semibold dark:text-gray-400 mb-2'>Front-end</h3>
@@ -120,7 +120,7 @@ function App() {
               </div>
               </div>
 
-            <div className='flex-col outline outline-teal-800 text-center mb-5 rounded-full'>
+            <div className='flex-col outline outline-gray-800 text-center mb-5 rounded-full'>
                 <div className='flex flex-col px-8 py-6 h-full justify-center mb-4'>
                   <img src={code} alt="design.png" width={50} height={50} className='mx-auto'/>
                   <h3 className='font-semibold dark:text-gray-400 mb-2'>Programming</h3>
@@ -132,7 +132,7 @@ function App() {
               </div>
             </div>
 
-            <div className='outline outline-teal-800 text-center mb-5 rounded-full '>
+            <div className='outline outline-gray-800 text-center mb-5 rounded-full '>
               <div className='flex flex-col lg:w-48 px-6 py-6 justify-center h-full'>
                 <img src={consulting} alt="design.png" width={50} height={50} className='mx-auto'/>
                 <h3 className='font-semibold dark:text-gray-400 mb-2'>UI/UX</h3>
@@ -148,9 +148,9 @@ function App() {
         {/* About section ends */}
 
         {/* Experience section begins */}
-        <section className='md:py-10 lg:py-10'>
+        <section className='my-24 md:py-10 lg:py-10'>
           <h3 className=' text-teal-600 text-xl py-1 font-bold md:text-2xl lg:text-4xl '>Experience</h3>
-          <div className='text-center outline outline-teal-800 rounded-xl px-5 py-5 mx-auto my-10 md:flex gap-11 md:justify-evenly'>
+          <div className='text-center outline outline-gray-800 rounded-xl px-5 py-5 mx-auto my-10 md:flex gap-11 md:justify-evenly'>
             <div className=' mb-2'>
               <p className='md:text-xl text-black dark:text-white'>Project Engineer</p>
               <p className='md:text-lg font-semibold text-teal-500'>Wipro Limited</p>
@@ -165,15 +165,15 @@ function App() {
         </section>
         {/* Experience section ends */}
 
-        <section>
+        <section className='my-24'>
           <div className=' container my-12'>
             <h3 className=' text-teal-600 text-xl py-4 font-bold md:text-2xl lg:text-4xl '>Projects</h3>
             <p className=' text-md md:text-xl py-2 leading-8 dark:text-white'>
             Take a look at some of my <span className=' text-teal-500'>side projects</span>
             </p>
-            <div className='lg:flex gap-2'>
+            <div className='lg:flex gap-4'>
             {/* Project 1 */}
-            <div className=' text-center lg:w-1/2 p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2 my-10 shadow-2xl  hover:bg-gray-300 dark:outline dark:outline-teal-800 dark:text-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
+            <div className=' text-center lg:w-1/2 p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2 my-10 shadow-xl  hover:bg-gray-300 outline outline-gray-200 dark:outline-gray-800 dark:text-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
             <div className="rounded-lg container mx-auto w-52 h-36 background bg-[url('./Images/project-1.png')] bg-cover bg-center bg-no-repeat" />
               <h3 className=' text-2xl py-4 text-teal-500 font-semibold '>VIDEO-PLAYER</h3>
               <div className='flex flex-wrap justify-center gap-2 max-w-max text-gray-900'>
@@ -192,7 +192,7 @@ function App() {
               </div>
             </div>
             {/* Project 2 */}  
-            <div className=' text-center lg:w-1/2 p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2  my-10 shadow-2xl hover:bg-gray-300 dark:outline dark:outline-teal-800 dark:text-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
+            <div className=' text-center lg:w-1/2 p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2  my-10 shadow-xl hover:bg-gray-300 outline outline-gray-200 dark:outline-gray-800 dark:text-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
               <div className="rounded-lg mx-auto container w-52 h-36 background bg-[url('./Images/project-2.png')] bg-cover bg-center bg-no-repeat" />
               <h3 className='text-2xl text-teal-500 py-4 font-semibold'>SHOPPING APP</h3>
                 <div className='flex flex-wrap justify-center gap-2 max-w-max text-gray-900'>
@@ -210,7 +210,7 @@ function App() {
               </div>
             </div>
             {/* Project 3 */}
-            <div className=' text-center lg:w-1/2 p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2  my-10 shadow-2xl hover:bg-gray-300 dark:outline dark:outline-teal-800 dark:text-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
+            <div className=' text-center lg:w-1/2 p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2  my-10 shadow-xl hover:bg-gray-300 outline outline-gray-200 dark:outline-gray-800 dark:text-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
             <div className="rounded-lg container mx-auto w-52 h-36 background bg-[url('./Images/project-3.png')] bg-cover bg-center bg-no-repeat" />
               <h3 className='text-2xl py-4 text-teal-500 font-semibold '>NETFLIX-CLONE</h3>
               <div className='flex flex-wrap justify-center gap-2 max-w-max text-gray-900'>
@@ -231,7 +231,7 @@ function App() {
           </div>
         </section>
 
-        <section className='my-10'>
+        <section className='my-24'>
         <h3 className='text-teal-600 text-xl py-1 font-bold md:text-2xl lg:text-4xl'>Hit me up!</h3>
          <div className=' w-full p-10 flex flex-col items-center md:flex md:flex-row lg:gap-10'>
           <div className='text-center'>
@@ -275,7 +275,7 @@ function App() {
           </div>
           </div>
         </section>
-        <footer className='mt-24 dark:bg-gray-900'>
+        <footer className='mt-24'>
           <p className='mt-10 text-center text-sm p-4 text-gray-600 dark:text-gray-300'>Developed by <span className=' text-teal-500'>Jagan G Mohan</span></p>
         </footer>
       </main>
