@@ -248,6 +248,7 @@ function App() {
                         name="email"
                         className='bg-gray-100 p-2 w-full md:w-3/4 rounded text-sm focus:outline focus:outline-teal-500'
                         placeholder='Enter your email!'
+                        required
                       />
                       <ValidationError 
                         prefix="Email" 
@@ -257,6 +258,7 @@ function App() {
                       <textarea
                         id="message"
                         name="message"
+                        required
                         className='bg-gray-100 focus:outline-teal-500 md:w-3/4 p-2 text-sm outline-none rounded' placeholder='Enter your message...'
                       />
                       <ValidationError 
