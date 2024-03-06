@@ -98,7 +98,7 @@ function App() {
             My<span className=' text-teal-6'> interests</span> include Front end development, UI desiging, Data analytics and programming.
             </p>
           </div>
-          <h3 className=' text-teal-600 text-3xl py-1 font-bold md:text-4xl lg:text-4xl mt-20'>Skills</h3>
+          <h3 className=' text-teal-600 text-xl py-1 font-bold md:text-2xl lg:text-4xl mt-20'>Skills</h3>
           <div className='flex flex-col lg:flex-row items-center bg-grey-300 justify-evenly my-10 gap-4'>
 
             <div className=' outline outline-teal-800 text-center mb-5 rounded-full '>
@@ -149,7 +149,7 @@ function App() {
 
         {/* Experience section begins */}
         <section className='md:py-10 lg:py-10'>
-          <h3 className=' text-teal-600 text-3xl py-1 font-bold md:text-4xl lg:text-4xl '>Experience</h3>
+          <h3 className=' text-teal-600 text-xl py-1 font-bold md:text-2xl lg:text-4xl '>Experience</h3>
           <div className='text-center outline outline-teal-800 rounded-xl px-5 py-5 mx-auto my-10 md:flex gap-11 md:justify-evenly'>
             <div className=' mb-2'>
               <p className='md:text-xl text-black dark:text-white'>Project Engineer</p>
@@ -167,7 +167,7 @@ function App() {
 
         <section>
           <div className=' container my-12'>
-            <h3 className=' text-teal-600 text-3xl py-4 font-bold md:text-4xl lg:text-4xl '>Projects</h3>
+            <h3 className=' text-teal-600 text-xl py-4 font-bold md:text-2xl lg:text-4xl '>Projects</h3>
             <p className=' text-md md:text-xl py-2 leading-8 dark:text-white'>
             Take a look at some of my <span className=' text-teal-500'>side projects</span>
             </p>
@@ -232,7 +232,7 @@ function App() {
         </section>
 
         <section className='my-10'>
-        <h3 className='text-teal-600 text-3xl py-1 font-bold md:text-4xl lg:text-4xl'>Hit me up!</h3>
+        <h3 className='text-teal-600 text-xl py-1 font-bold md:text-2xl lg:text-4xl'>Hit me up!</h3>
          <div className=' w-full p-10 flex flex-col items-center md:flex md:flex-row lg:gap-10'>
           <div className='text-center'>
             <iframe src="https://lottie.host/embed/3fe1abaa-723f-4594-a02d-0a820f842d3a/iDwDBOtMmk.json"
