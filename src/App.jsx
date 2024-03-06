@@ -5,7 +5,6 @@ import { useEffect, useState } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import Typewriter from 'typewriter-effect';
 import proPic from './Images/jagan.jpg';
-import contact from './Images/contact-me.gif'
 import design from './Images/design.png';
 import code from './Images/code.png';
 import consulting from './Images/design1.png';
@@ -237,6 +236,7 @@ function App() {
          <div className=' w-full p-10 flex flex-col items-center md:flex md:flex-row lg:gap-10'>
           <div className='text-center'>
             <iframe src="https://lottie.host/embed/3fe1abaa-723f-4594-a02d-0a820f842d3a/iDwDBOtMmk.json"
+            title='contact-logo'
             className='w-72 h-1/2'></iframe>
             <p className='text-lg font-semibold dark:text-gray-100 md:text-xl mb-4'>Reach out to me</p>
           </div>
