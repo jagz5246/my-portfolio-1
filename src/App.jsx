@@ -18,6 +18,8 @@ import redux from './Icons/icons8-redux-48.png';
 import sass from './Icons/icons8-sass-48.png';
 import tailwind from './Icons/icons8-tailwind-css-48.png';
 // import firebase from './Icons/icons8-firebase-48.png';
+import wipro from './Icons/wipro-logo.png'
+import draup from './Icons/draup-logo.png'
 import java from './Icons/java.png';
 import python from './Icons/python.png';
 import figma from './Icons/figma.png';
@@ -89,16 +91,16 @@ function App() {
           </div> 
         </section>
         {/* About section begins */}
-        <section className='my-24 md:py-10 lg:py-10'>
+        <section className='mt-48 mb-24'>
           <div className=' container mx-auto my-12'>
-            <h3 className='text-xl py-1 font-bold md:text-2xl lg:text-4xl text-teal-600'>About Me</h3>
+            <h3 className='text-xl py-1 font-semibold md:text-2xl lg:text-3xl text-teal-600'>About Me</h3>
             <p className='text-md py-2 leading-8 dark:text-white'>
             As a dedicated developer with over 2 years of hands-on experience in technologies like HTML5, CSS3, JavaScript, Typescript, React js, Next js, Tailwind css and more. I bring a passion for creating user-friendly, responsive web applications.</p>
             <p className=' text-md py-2 leading-8 dark:text-gray-300'>
             My<span className=' text-teal-600'> interests</span> include Front end development, UI desiging, Data analytics and programming.
             </p>
           </div>
-          <h3 className=' text-teal-600 text-xl py-1 font-bold md:text-2xl lg:text-4xl mt-20'>Skills</h3>
+          <h3 className=' text-teal-600 text-xl py-1 font-semibold md:text-2xl lg:text-3xl mt-20'>Skills</h3>
           <div className='flex flex-col lg:flex-row items-center bg-grey-300 justify-evenly my-10 gap-4'>
 
             <div className=' outline outline-gray-300 dark:outline-gray-800 text-center mb-5 rounded-full '>
@@ -148,26 +150,33 @@ function App() {
         {/* About section ends */}
 
         {/* Experience section begins */}
-        <section className='my-24 md:py-10 lg:py-10'>
-          <h3 className=' text-teal-600 text-xl py-1 font-bold md:text-2xl lg:text-4xl '>Experience</h3>
-          <div className='text-center outline outline-gray-300 dark:outline-gray-800 rounded-xl px-5 py-5 mx-auto my-10 md:flex gap-11 md:justify-evenly'>
-            <div className=' mb-2'>
-              <p className='md:text-xl text-black dark:text-white'>Project Engineer</p>
-              <p className='md:text-lg font-semibold text-teal-500'>Wipro Limited</p>
-              <p className='md:text-md py-2 font-light text-gray-600 dark:text-gray-400'>2021-present</p>
+        <section className='my-24'>
+          <h3 className=' text-teal-600 text-xl py-2 font-semibold md:text-2xl lg:text-3xl '>Experience</h3>
+          <div className='text-center outline outline-gray-300 dark:outline-gray-800 rounded-xl px-5 py-5 my-10 flex flex-col justify-evenly gap-12 items-center md:flex-row'>
+            <div className='flex flex-col items-center gap-2 lg:flex-row mb-2'>
+              <img src={wipro} alt="wipro-logo" className='w-24'/>
+                <div>
+                  <p className='md:text-lg text-black dark:text-white'>Project Engineer</p>
+                  <p className='md:text-md font-semibold text-teal-500'>Wipro Limited</p>
+                  <p className='md:text-sm py-2 font-light text-gray-600 dark:text-gray-400'>2021-present</p>
+                </div>
             </div>
-            <div className=' mb-2'>
-              <p className='md:text-xl text-black dark:text-white'>Market Research Intern</p>
-              <p className='md:text-lg font-semibold text-teal-500'>Draup</p>
-              <p className='md:text-md py-2 font-light text-gray-600 dark:text-gray-400'>2020-2021</p>
+            <div className='flex flex-col gap-2 lg:flex-row items-center mb-2'>
+            <img src={draup} alt="draup-logo" className='w-24'/>
+              <div>
+                <p className='md:text-lg text-black dark:text-white'>Market Research Intern</p>
+                <p className='md:text-md font-semibold text-teal-500'>Draup</p>
+                <p className='md:text-sm py-2 font-light text-gray-600 dark:text-gray-400'>2020-2021</p>
+              </div>
             </div>
           </div>
         </section>
         {/* Experience section ends */}
 
+        {/* Projects section begins */}
         <section className='my-24'>
           <div className=' container my-12'>
-            <h3 className=' text-teal-600 text-xl py-4 font-bold md:text-2xl lg:text-4xl '>Projects</h3>
+            <h3 className=' text-teal-600 text-xl py-4 font-semibold md:text-2xl lg:text-3xl '>Projects</h3>
             <p className=' text-md md:text-xl py-2 leading-8 dark:text-white'>
             Take a look at some of my <span className=' text-teal-500'>side projects</span>
             </p>
@@ -175,14 +184,14 @@ function App() {
             {/* Project 1 */}
             <div className=' text-center lg:w-1/2 p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2 my-10 shadow-xl  hover:bg-gray-300 outline outline-gray-200 dark:outline-gray-800 dark:text-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
             <div className="rounded-lg container mx-auto w-52 h-36 background bg-[url('./Images/project-1.png')] bg-cover bg-center bg-no-repeat" />
-              <h3 className=' text-2xl py-4 text-teal-500 font-semibold '>VIDEO-PLAYER</h3>
+              <h3 className=' text-lg font-bold lg:text-xl py-4 text-teal-500  '>VIDEO-PLAYER</h3>
               <div className='flex flex-wrap justify-center gap-2 max-w-max text-gray-900'>
                   <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>React.js</p>
                   <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>React hooks</p>
                   <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>contextAPI</p>
                   <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>react-player</p>
                   <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>tailwindcss</p>
-                  <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>MaterialUI</p>
+                  {/* <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>MaterialUI</p> */}
                   <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>screenful</p>
                   <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>Vercel</p>
                 </div>
@@ -194,7 +203,7 @@ function App() {
             {/* Project 2 */}  
             <div className=' text-center lg:w-1/2 p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2  my-10 shadow-xl hover:bg-gray-300 outline outline-gray-200 dark:outline-gray-800 dark:text-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
               <div className="rounded-lg mx-auto container w-52 h-36 background bg-[url('./Images/project-2.png')] bg-cover bg-center bg-no-repeat" />
-              <h3 className='text-2xl text-teal-500 py-4 font-semibold'>SHOPPING APP</h3>
+              <h3 className='text-lg font-bold lg:text-xl text-teal-500 py-4 '>SHOPPING APP</h3>
                 <div className='flex flex-wrap justify-center gap-2 max-w-max text-gray-900'>
                   <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>Next.js</p>
                   <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>Typescript</p>
@@ -212,7 +221,7 @@ function App() {
             {/* Project 3 */}
             <div className=' text-center lg:w-1/2 p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2  my-10 shadow-xl hover:bg-gray-300 outline outline-gray-200 dark:outline-gray-800 dark:text-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
             <div className="rounded-lg container mx-auto w-52 h-36 background bg-[url('./Images/project-3.png')] bg-cover bg-center bg-no-repeat" />
-              <h3 className='text-2xl py-4 text-teal-500 font-semibold '>NETFLIX-CLONE</h3>
+              <h3 className='text-lg font-bold lg:text-xl py-4 text-teal-500  '>NETFLIX-CLONE</h3>
               <div className='flex flex-wrap justify-center gap-2 max-w-max text-gray-900'>
                   <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs font-medium'>React.js</p>
                   <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs font-medium'>Redux</p>
@@ -230,9 +239,10 @@ function App() {
           </div>           
           </div>
         </section>
+        {/* Projects section ends */}
 
         <section className='my-24'>
-        <h3 className='text-teal-600 text-xl py-1 font-bold md:text-2xl lg:text-4xl'>Hit me up!</h3>
+        <h3 className='text-teal-600 text-xl py-1 font-semibold md:text-2xl lg:text-3xl'>Hit me up!</h3>
          <div className=' w-full p-10 flex flex-col items-center md:flex md:flex-row lg:gap-10'>
           <div className='text-center'>
             <iframe src="https://lottie.host/embed/3fe1abaa-723f-4594-a02d-0a820f842d3a/iDwDBOtMmk.json"
@@ -267,7 +277,7 @@ function App() {
                         errors={state.errors}
                       />
                       <button type="submit" disabled={state.submitting}
-                      className='w-48 bg-gradient-to-r from-cyan-500 to-teal-500 text-white transition duration-150 hover:text-black 
+                      className='w-48 mx-auto md:mx-0 bg-gradient-to-r from-cyan-500 to-teal-500 text-white transition duration-150 hover:text-black 
                       rounded px-4 py-2'>Submit
                       </button>
                     </form>
