@@ -82,7 +82,7 @@ function App() {
           </div>
           <div className='text-4xl justify-center flex gap-16 py-10 text-gray-600 md:text-5xl'>
             <a href='https://github.com/jagz5246'><AiFillGithub className=' cursor-pointer transition duration-150 dark:text-gray-500 hover:text-teal-500 dark:hover:text-gray-300'/></a>
-            <a href='https://www.linkedin.com/in/jagan-g-mohan-6b82701a2/'><AiFillLinkedin  className=' cursor-pointer transition duration-150 dark:text-gray-500 hover:text-teal-500 dark:hover:text-gray-300'/></a>
+            <a href='https://www.linkedin.com/in/jagan-g-mohan'><AiFillLinkedin  className=' cursor-pointer transition duration-150 dark:text-gray-500 hover:text-teal-500 dark:hover:text-gray-300'/></a>
             <a href='https://www.instagram.com/jagz_5246/'><AiFillInstagram className=' cursor-pointer transition duration-150 dark:text-gray-500 hover:text-teal-500 dark:hover:text-gray-300'/></a>
           </div>
           <div className='w-44 h-44 rounded-full mx-auto overflow-hidden md:w-72 md:h-72'>
