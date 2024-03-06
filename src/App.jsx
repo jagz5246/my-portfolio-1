@@ -101,7 +101,7 @@ function App() {
           <h3 className=' text-teal-600 text-xl py-1 font-bold md:text-2xl lg:text-4xl mt-20'>Skills</h3>
           <div className='flex flex-col lg:flex-row items-center bg-grey-300 justify-evenly my-10 gap-4'>
 
-            <div className=' outline outline-gray-800 text-center mb-5 rounded-full '>
+            <div className=' outline outline-gray-300 dark:outline-gray-800 text-center mb-5 rounded-full '>
               <div className='flex flex-col px-4 py-12 gap-2 w-full h-full justify-center '>
               <img src={design} alt="design.png" width={50} height={50} className='mx-auto'/>
               <h3 className='text-center font-semibold dark:text-gray-400 mb-2'>Front-end</h3>
@@ -120,7 +120,7 @@ function App() {
               </div>
               </div>
 
-            <div className='flex-col outline outline-gray-800 text-center mb-5 rounded-full'>
+            <div className='flex-col outline outline-gray-300 dark:outline-gray-800 text-center mb-5 rounded-full'>
                 <div className='flex flex-col px-8 py-6 h-full justify-center mb-4'>
                   <img src={code} alt="design.png" width={50} height={50} className='mx-auto'/>
                   <h3 className='font-semibold dark:text-gray-400 mb-2'>Programming</h3>
@@ -132,7 +132,7 @@ function App() {
               </div>
             </div>
 
-            <div className='outline outline-gray-800 text-center mb-5 rounded-full '>
+            <div className='outline outline-gray-300 dark:outline-gray-800 text-center mb-5 rounded-full '>
               <div className='flex flex-col lg:w-48 px-6 py-6 justify-center h-full'>
                 <img src={consulting} alt="design.png" width={50} height={50} className='mx-auto'/>
                 <h3 className='font-semibold dark:text-gray-400 mb-2'>UI/UX</h3>
@@ -150,7 +150,7 @@ function App() {
         {/* Experience section begins */}
         <section className='my-24 md:py-10 lg:py-10'>
           <h3 className=' text-teal-600 text-xl py-1 font-bold md:text-2xl lg:text-4xl '>Experience</h3>
-          <div className='text-center outline outline-gray-800 rounded-xl px-5 py-5 mx-auto my-10 md:flex gap-11 md:justify-evenly'>
+          <div className='text-center outline outline-gray-300 dark:outline-gray-800 rounded-xl px-5 py-5 mx-auto my-10 md:flex gap-11 md:justify-evenly'>
             <div className=' mb-2'>
               <p className='md:text-xl text-black dark:text-white'>Project Engineer</p>
               <p className='md:text-lg font-semibold text-teal-500'>Wipro Limited</p>
@@ -177,14 +177,14 @@ function App() {
             <div className="rounded-lg container mx-auto w-52 h-36 background bg-[url('./Images/project-1.png')] bg-cover bg-center bg-no-repeat" />
               <h3 className=' text-2xl py-4 text-teal-500 font-semibold '>VIDEO-PLAYER</h3>
               <div className='flex flex-wrap justify-center gap-2 max-w-max text-gray-900'>
-                  <p className='p-2 bg-gray-300 dark:bg-white rounded-md text-xs'>React.js</p>
-                  <p className='p-2 bg-gray-300 dark:bg-white rounded-md text-xs'>React hooks</p>
-                  <p className='p-2 bg-gray-300 dark:bg-white rounded-md text-xs'>contextAPI</p>
-                  <p className='p-2 bg-gray-300 dark:bg-white rounded-md text-xs'>react-player</p>
-                  <p className='p-2 bg-gray-300 dark:bg-white rounded-md text-xs'>tailwindcss</p>
-                  <p className='p-2 bg-gray-300 dark:bg-white rounded-md text-xs'>MaterialUI</p>
-                  <p className='p-2 bg-gray-300 dark:bg-white rounded-md text-xs'>screenful</p>
-                  <p className='p-2 bg-gray-300 dark:bg-white rounded-md text-xs'>Vercel</p>
+                  <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>React.js</p>
+                  <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>React hooks</p>
+                  <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>contextAPI</p>
+                  <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>react-player</p>
+                  <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>tailwindcss</p>
+                  <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>MaterialUI</p>
+                  <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>screenful</p>
+                  <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>Vercel</p>
                 </div>
               <div className=' flex justify-center gap-2 mt-10'>
               <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm hover:text-black '><a href='https://video-player-six-sigma.vercel.app/'>Live demo</a></button>
@@ -196,13 +196,13 @@ function App() {
               <div className="rounded-lg mx-auto container w-52 h-36 background bg-[url('./Images/project-2.png')] bg-cover bg-center bg-no-repeat" />
               <h3 className='text-2xl text-teal-500 py-4 font-semibold'>SHOPPING APP</h3>
                 <div className='flex flex-wrap justify-center gap-2 max-w-max text-gray-900'>
-                  <p className='p-2 bg-gray-300 dark:bg-white rounded-md text-xs'>Next.js</p>
-                  <p className='p-2 bg-gray-300 dark:bg-white rounded-md text-xs'>Typescript</p>
-                  <p className='p-2 bg-gray-300 dark:bg-white rounded-md text-xs'>Tailwindcss</p>
-                  <p className='p-2 bg-gray-300 dark:bg-white rounded-md text-xs'>Shadcn</p>
-                  <p className='p-2 bg-gray-300 dark:bg-white rounded-md text-xs'>Sanity.io</p>
-                  <p className='p-2 bg-gray-300 dark:bg-white rounded-md text-xs'>Stripe</p>
-                  <p className='p-2 bg-gray-300 dark:bg-white rounded-md text-xs'>Vercel</p>
+                  <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>Next.js</p>
+                  <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>Typescript</p>
+                  <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>Tailwindcss</p>
+                  <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>Shadcn</p>
+                  <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>Sanity.io</p>
+                  <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>Stripe</p>
+                  <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>Vercel</p>
                 </div>
               <div className=' flex justify-center gap-2 mt-10'>
               <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm hover:text-black '><a href='https://eternattire-ecomm.vercel.app/'>Live demo</a></button>
@@ -214,13 +214,13 @@ function App() {
             <div className="rounded-lg container mx-auto w-52 h-36 background bg-[url('./Images/project-3.png')] bg-cover bg-center bg-no-repeat" />
               <h3 className='text-2xl py-4 text-teal-500 font-semibold '>NETFLIX-CLONE</h3>
               <div className='flex flex-wrap justify-center gap-2 max-w-max text-gray-900'>
-                  <p className='p-2 bg-gray-300 dark:bg-white rounded-md text-xs font-medium'>React.js</p>
-                  <p className='p-2 bg-gray-300 dark:bg-white rounded-md text-xs font-medium'>Redux</p>
-                  <p className='p-2 bg-gray-300 dark:bg-white rounded-md text-xs font-medium'>React hooks</p>
-                  <p className='p-2 bg-gray-300 dark:bg-white rounded-md text-xs font-medium'>Firebase</p>
-                  <p className='p-2 bg-gray-300 dark:bg-white rounded-md text-xs font-medium'>Firestore</p>
-                  <p className='p-2 bg-gray-300 dark:bg-white rounded-md text-xs font-medium'>Stripe</p>
-                  <p className='p-2 bg-gray-300 dark:bg-white rounded-md text-xs font-medium'>Github pages</p>
+                  <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs font-medium'>React.js</p>
+                  <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs font-medium'>Redux</p>
+                  <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs font-medium'>React hooks</p>
+                  <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs font-medium'>Firebase</p>
+                  <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs font-medium'>Firestore</p>
+                  <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs font-medium'>Stripe</p>
+                  <p className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs font-medium'>Github pages</p>
                 </div>
             <div className=' flex justify-center gap-2 mt-10'>
               <button className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm hover:text-black '><a href='https://jagz5246.github.io/netflix-clone/'>Live demo</a></button>
