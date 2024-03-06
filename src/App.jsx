@@ -275,7 +275,7 @@ function App() {
           </div>
           </div>
         </section>
-        <footer className='mt-10 dark:bg-gray-900'>
+        <footer className='mt-24 dark:bg-gray-900'>
           <p className='mt-10 text-center text-sm p-4 text-gray-600 dark:text-gray-300'>Developed by <span className=' text-teal-500'>Jagan G Mohan</span></p>
         </footer>
       </main>
