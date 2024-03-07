@@ -3,9 +3,8 @@ import Lottie from "lottie-react";
 import message from './message-svg.json'
 
 const Message = ({dark}) => {
-    console.log(dark)
   return (
-    <div className={dark?"bg-black h-screen flex flex-col gap-12 items-center":"flex flex-col gap-4 h-screen items-center" }>
+    <div className={dark?"bg-black h-screen flex flex-col gap-12 justify-center items-center":"flex flex-col gap-4 h-screen items-center" }>
       
         <div>
             <Lottie className=' mx-auto w-72 h-72'

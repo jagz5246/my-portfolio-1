@@ -182,7 +182,7 @@ function App() {
             </p>
             <div className='lg:flex gap-4'>
             {/* Project 1 */}
-            <div className=' text-center lg:w-1/2 p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2 my-10 shadow-xl  hover:bg-gray-300 outline outline-gray-200 dark:outline-gray-800 dark:text-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
+            <div className=' text-center lg:w-1/2 p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2 my-10 shadow  hover:bg-gray-300 outline outline-gray-200 dark:outline-gray-800 dark:text-white dark:hover:bg-gray-100 dark:hover:shadow-gray-300 hover:outline-none'>
             <div className="rounded-lg container mx-auto w-52 h-36 background bg-[url('./Images/project-1.png')] bg-cover bg-center bg-no-repeat" />
               <h3 className=' text-lg font-bold lg:text-xl py-4 text-teal-500  '>VIDEO-PLAYER</h3>
               <div className='flex flex-wrap justify-center gap-2 max-w-max text-gray-900'>
@@ -201,7 +201,7 @@ function App() {
               </div>
             </div>
             {/* Project 2 */}  
-            <div className=' text-center lg:w-1/2 p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2  my-10 shadow-xl hover:bg-gray-300 outline outline-gray-200 dark:outline-gray-800 dark:text-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
+            <div className=' text-center lg:w-1/2 p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2  my-10 shadow hover:bg-gray-300 outline outline-gray-200 dark:outline-gray-800 dark:text-white dark:hover:bg-gray-100 dark:hover:shadow-gray-300 hover:outline-none'>
               <div className="rounded-lg mx-auto container w-52 h-36 background bg-[url('./Images/project-2.png')] bg-cover bg-center bg-no-repeat" />
               <h3 className='text-lg font-bold lg:text-xl text-teal-500 py-4 '>SHOPPING APP</h3>
                 <div className='flex flex-wrap justify-center gap-2 max-w-max text-gray-900'>
@@ -219,7 +219,7 @@ function App() {
               </div>
             </div>
             {/* Project 3 */}
-            <div className=' text-center lg:w-1/2 p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2  my-10 shadow-xl hover:bg-gray-300 outline outline-gray-200 dark:outline-gray-800 dark:text-white dark:hover:bg-gray-300 dark:hover:shadow-gray-300'>
+            <div className=' text-center lg:w-1/2 p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2  my-10 shadow hover:bg-gray-300 outline outline-gray-200 dark:outline-gray-800 dark:text-white dark:hover:bg-gray-100 dark:hover:shadow-gray-300 hover:outline-none'>
             <div className="rounded-lg container mx-auto w-52 h-36 background bg-[url('./Images/project-3.png')] bg-cover bg-center bg-no-repeat" />
               <h3 className='text-lg font-bold lg:text-xl py-4 text-teal-500  '>NETFLIX-CLONE</h3>
               <div className='flex flex-wrap justify-center gap-2 max-w-max text-gray-900'>
