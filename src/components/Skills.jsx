@@ -5,7 +5,7 @@ import html from '../Icons/html.png';
 import css from '../Icons/css.png';
 import js from '../Icons/js.png';
 import react from '../Icons/react.png';
-import nextjs from '../Icons/icons8-nextjs-48.png';
+import nextjs from '../Icons/nextjs.png';
 import typescript from '../Icons/icons8-typescript-48.png';
 import redux from '../Icons/icons8-redux-48.png';
 import sass from '../Icons/icons8-sass-48.png';

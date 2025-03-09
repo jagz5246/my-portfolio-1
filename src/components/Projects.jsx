@@ -8,6 +8,7 @@ const Projects = () => {
     const projects = [
         {
             client: 'Reflexion Medical',
+            url: 'https://www.reflexionmedical.com/',
             imgURL: rx,
             title: 'Deidentifier',
             description: 'Built an Electron application by formulating robust algorithms to remove or obfuscate Protected Health Information (PHI), significantly reducing data leakage risks by 95%.',
@@ -15,6 +16,7 @@ const Projects = () => {
         },
         {
             client: 'Zamtel',
+            url: 'https://etuition.d44tboaq0so0j.amplifyapp.com/',
             imgURL: zamtel,
             title: 'E-Tuition',
             description: 'Developed a secure payment module using Harakapay and utilized AWS services to architect scalable backend functionalities, maintaining platform uptime at 99.9%.',
@@ -22,6 +24,7 @@ const Projects = () => {
         },
         {
             client: 'Kimaru.ai',
+            url: 'https://kimaru.ai/',
             imgURL: kimaru,
             title: 'CDD Builder',
             description: 'Built a Causal Decision Diagram (CDD) Generator leveraging React.js and React Flow, delivering a fully customizable UI, driving a 40% increase in adoption among business analysts and boosting workflow automation efficiency by 50%.',
@@ -47,13 +50,15 @@ const Projects = () => {
                     // whileInView={{ opacity: 1, y: 0 }}
                     // transition={{ duration: 0.5, delay: index * 0.3 }}
                     // viewport={{ once: true, amount: 0.2 }}
-                    className=' text-center lg:w-1/2 p-5 rounded-lg cursor-pointer transition ease-in-out delay-50 hover:-translate-y-2 my-10 shadow  outline outline-gray-200 dark:outline-gray-800 dark:text-whitedark:hover:shadow-gray-100 hover:outline-none'
+                    className=' text-center lg:w-1/2 p-5 rounded-lg transition ease-in-out delay-50 hover:-translate-y-2 my-10 shadow  outline outline-gray-200 dark:outline-gray-800 dark:text-whitedark:hover:shadow-gray-100 hover:outline-none'
                 >
                     <div
                     className="rounded-lg container mx-auto w-52 h-36 bg-cover bg-center bg-no-repeat"
                     style={{ backgroundImage:  `url(${project.imgURL})` }}
                     ></div>
-                    <h3 className=' text-lg font-bold lg:text-xl py-2 text-teal-500  '>{project.client}</h3>
+                    <h3 className=' text-lg font-bold lg:text-xl py-2 text-gray-300 hover:underline dark:hover:underline cursor-pointer'
+                    onClick={() => window.open(project.url, '_blank')}
+                    >{project.client}</h3>
                     <h4 className=' font-bold py-2 text-teal-500  '>{project.title}</h4>
                     <div className='flex flex-wrap justify-center gap-2 max-w-max text-gray-900'>
                         <p className='text-left p-2 dark:text-gray-100 rounded-md text-xs dark:hover:text-black-500'>Built an Electron application by formulating robust algorithms to remove or obfuscate Protected Health
