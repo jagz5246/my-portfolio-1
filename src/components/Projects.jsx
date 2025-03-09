@@ -61,8 +61,7 @@ const Projects = () => {
                     >{project.client}</h3>
                     <h4 className=' font-bold py-2 text-teal-500  '>{project.title}</h4>
                     <div className='flex flex-wrap justify-center gap-2 max-w-max text-gray-900'>
-                        <p className='text-left p-2 dark:text-gray-100 rounded-md text-xs dark:hover:text-black-500'>Built an Electron application by formulating robust algorithms to remove or obfuscate Protected Health
-                        Information (PHI), significantly reducing data leakage risks by 95%.</p>
+                        <p className='text-left p-2 dark:text-gray-100 rounded-md text-xs dark:hover:text-black-500'>{project.description}</p>
                         {project.techStack.map((tech, idx) => {
                             return <p key={idx} className='p-2 bg-gray-300 dark:bg-gray-900 dark:text-gray-100 rounded-md text-xs'>{tech}</p>
                         }
